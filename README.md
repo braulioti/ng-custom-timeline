@@ -1,6 +1,6 @@
 # Warning
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9aff6af8ff4b4a88902b7ed08a129d8c)](https://app.codacy.com/app/braulioti/ng-timeline?utm_source=github.com&utm_medium=referral&utm_content=braulioti/ng-timeline&utm_campaign=badger)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9aff6af8ff4b4a88902b7ed08a129d8c)](https://app.codacy.com/app/braulioti/ng-custom-timeline?utm_source=github.com&utm_medium=referral&utm_content=braulioti/ng-custom-timeline&utm_campaign=badger)
 
 This quickstart is under active development and hasn't yet reached its final form.
 
