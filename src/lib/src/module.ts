@@ -1,11 +1,22 @@
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core';
 
-import { LibComponent } from './component/lib.component';
-import { LibService } from './service/lib.service';
+import {TimelineComponent} from './component/timeline.component';
+import {TimelineService} from './service/timeline.service';
+import {CommonModule} from "@angular/common";
+
 
 @NgModule({
-  declarations: [LibComponent],
-  providers: [LibService],
-  exports: [LibComponent]
+    imports: [
+        CommonModule
+    ]
+    declarations: [
+        TimelineComponent
+    ],
+    providers: [
+        TimelineService
+    ],
+    exports: [
+        TimelineComponent
+    ]
 })
-export class LibModule { }
+export class TimelineModule { }

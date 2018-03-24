@@ -1,0 +1,16 @@
+<div style="width: 100%; overflow: auto;">
+    <section class="ps-timeline-sec" [style.width.px]="pipelineWidth">
+        <div class="container" [style.width.px]="pipelineContainer">
+            <ol class="ps-timeline"  [style.width.px]="pipelineContainer">
+                <div *ngFor="let item of _datasource">
+                    <li>
+                        <div class="ps-top speech-bubble speech-bubble-up speech-bubble-bottom box-timeline">
+                            {{ item }}
+                        </div>
+                    </li>
+                </div>
+            </ol>
+        </div>
+    </section>
+</div>
+

@@ -1,6 +1,6 @@
 {
   "name": "ng-custom-timeline",
-  "version": "0.2.0-alfa",
+  "version": "0.3.0-alfa",
   "description": "Full custom timeline compent for Angular 5",
   "main": "./bundles/ng-custom-timeline.umd.js",
   "module": "./ng-custom-timeline.es5.js",

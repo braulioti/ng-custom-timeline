@@ -1,13 +1,9 @@
-import { Component } from '@angular/core';
-import { LibService } from 'ng-custom-timeline';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'demo-app',
-  templateUrl: './app.component.html'
+    selector: 'demo-app',
+    templateUrl: './app.component.html'
 })
 export class AppComponent {
-  meaning: number;
-  constructor(libService: LibService) {
-    this.meaning = libService.getMeaning();
-  }
+    public elements = ['item 1', 'item 2', 'item 3'];
 }

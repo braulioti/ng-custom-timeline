@@ -1,11 +1,11 @@
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { LibModule } from 'ng-custom-timeline';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {TimelineModule} from 'ng-custom-timeline';
 
-import { AppComponent }  from './app.component';
+import {AppComponent} from './app.component';
 
 @NgModule({
-  imports:      [ BrowserModule, LibModule],
+  imports:      [ BrowserModule, TimelineModule],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
