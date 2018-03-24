@@ -1,4 +1,4 @@
-# [NG Custom Timeline v0.2.0-Alfa](https://github.com/braulioti/Import-Scripts)
+# [NG Custom Timeline v0.3.0-Alfa](https://github.com/braulioti/ng-custom-timeline.git)
 ### Fully customizable timeline component for Angular
 
 [![npm version](https://badge.fury.io/js/ng-custom-timeline.svg)](https://badge.fury.io/js/ng-custom-timeline)
