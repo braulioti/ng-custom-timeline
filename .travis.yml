@@ -2,7 +2,7 @@ dist: trusty
 sudo: false
 language: node_js
 node_js:
-  - "6"
+  - "6.9"
 os:
   - linux
 before_install:
@@ -11,8 +11,7 @@ before_install:
   - sh -e /etc/init.d/xvfb start
   # Install latest chrome.
   - export CHROME_BIN=chromium-browser
-  - npm install -g --silent @angular/cli
-  - npm install @angular\compiler@next --save
+  - npm install -g @angular/cli
 install:
   - npm install
 script:
