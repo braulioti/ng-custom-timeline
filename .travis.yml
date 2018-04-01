@@ -13,9 +13,9 @@ before_install:
   - export CHROME_BIN=chromium-browser
 install:
   - npm install
+  - npm install -g @angular/cli
 script:
   - ng lint
   - ng e2e
-  - ng test
   - ng build --prod
-  - packagr
+  - npm run packagr
