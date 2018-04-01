@@ -2,7 +2,7 @@ dist: trusty
 sudo: false
 language: node_js
 node_js:
-  - "6.9"
+  - "8"
 os:
   - linux
 before_install:
@@ -15,7 +15,7 @@ before_install:
 install:
   - npm install
 script:
-  # - ng lint
-  # - ng e2e
+  - ng lint
+  - ng e2e
   - ng build
-  # - npm run packagr
+  - npm run packagr
