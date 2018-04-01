@@ -1,0 +1,18 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+    selector: 'timeline',
+    templateUrl: './timeline.component.html',
+    styleUrls: ['./timeline.component.css']
+})
+export class TimelineComponent implements OnInit {
+
+    constructor() { }
+
+    ngOnInit() {
+    }
+
+    getTextTimeline(): string {
+        return 'Not available yet :(';
+    }
+}

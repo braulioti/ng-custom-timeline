@@ -14,7 +14,8 @@ before_install:
 install:
   - npm install
 script:
-  - npm run lint
-  - npm run test:once
-  - npm run integration
-  - npm run coverage
+  - ng lint
+  - ng e2e
+  - ng test
+  - ng build --prod
+  - packagr
