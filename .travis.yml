@@ -11,9 +11,10 @@ before_install:
   - sh -e /etc/init.d/xvfb start
   # Install latest chrome.
   - export CHROME_BIN=chromium-browser
-script:
   - npm install -g @angular/cli
+install:
   - npm install
+script:
   - ng lint
   - ng e2e
   - ng build
