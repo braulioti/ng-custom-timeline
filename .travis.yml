@@ -15,7 +15,6 @@ before_install:
 install:
   - npm install
 script:
-  - ng lint
   - ng e2e
   - ng build
   - npm run packagr

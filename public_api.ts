@@ -1,1 +1,1 @@
-export * from 'src/app/modules/timeline/timeline.module'
+export * from './src/app/modules/timeline/timeline.module';
