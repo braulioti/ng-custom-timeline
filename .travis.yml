@@ -5,7 +5,7 @@ node_js:
   - "8"
 cache:
   directories:
-    - node_modules  
+    - node_modules
 os:
   - linux
 before_install:
@@ -19,7 +19,10 @@ before_install:
   - npm install -g @angular/compiler-cli
 install:
   - npm install
+  - cp package.json package.json_
+  - npm info . peerDependencies | sed -n 's/^{\{0,1\}[[:space:]]*'\''\{0,1\}\([^:'\'']*\)'\''\{0,1\}:[[:space:]]'\''\([^'\'']*\).*$/\1@\2/p' | xargs npm i
 script:
-  - ng e2e
   - ng build
+  - rm -rf package.json
+  - cp package.json_ package.json
   - npm run packagr
