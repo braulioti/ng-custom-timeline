@@ -19,7 +19,10 @@ before_install:
   - npm install -g @angular/compiler-cli
 install:
   - npm install
+  - cp package.json package.json_
   - npm info . peerDependencies | sed -n 's/^{\{0,1\}[[:space:]]*'\''\{0,1\}\([^:'\'']*\)'\''\{0,1\}:[[:space:]]'\''\([^'\'']*\).*$/\1@\2/p' | xargs npm i
 script:
   - ng build
+  - rm -rf package.json
+  - cp package.json_ package.json
   - npm run packagr
