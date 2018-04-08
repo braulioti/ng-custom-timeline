@@ -3,6 +3,9 @@ sudo: false
 language: node_js
 node_js:
   - "8"
+cache:
+  directories:
+    - node_modules  
 os:
   - linux
 before_install:
@@ -12,6 +15,8 @@ before_install:
   # Install latest chrome.
   - export CHROME_BIN=chromium-browser
   - npm install -g @angular/cli
+  - npm install -g @angular/compiler
+  - npm install -g @angular/compiler-cli
 install:
   - npm install
 script:
