@@ -1,6 +1,6 @@
 {
     "name": "ng-custom-timeline",
-    "version": "0.5.0-alfa",
+    "version": "0.6.0-alfa",
     "description": "Full custom timeline compent for Angular 5",
     "author": "Bráulio Figueiredo Pinto",
     "license": "MIT",
@@ -48,5 +48,19 @@
         "ts-node": "~3.2.0",
         "tslint": "~5.7.0",
         "typescript": "~2.4.2"
+    },
+    "dependencies": {
+        "@angular/animations": "^5.2.9",
+        "@angular/common": "^5.2.9",
+        "@angular/compiler": "^5.2.9",
+        "@angular/core": "^5.2.9",
+        "@angular/forms": "^5.2.9",
+        "@angular/http": "^5.2.9",
+        "@angular/platform-browser": "^5.2.9",
+        "@angular/platform-browser-dynamic": "^5.2.9",
+        "@angular/router": "^5.2.9",
+        "core-js": "^2.5.4",
+        "rxjs": "^5.5.8",
+        "zone.js": "^0.8.26"
     }
 }
