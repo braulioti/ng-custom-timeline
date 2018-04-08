@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9aff6af8ff4b4a88902b7ed08a129d8c)](https://app.codacy.com/app/braulioti/ng-custom-timeline?utm_source=github.com&utm_medium=referral&utm_content=braulioti/ng-custom-timeline&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/braulioti/ng-custom-timeline.svg?branch=master)](https://travis-ci.org/braulioti/ng-custom-timeline)
+[![View on StackBlitz](https://img.shields.io/badge/StackBlitz-0.5.0--alfa-orange.svg)](https://stackblitz.com/edit/ng-custom-timeline)
 
 - Component created from the need to develop a timeline that can receive HTML blocks and customizable images.
 NG Custom Timeline is created and maintained by [Bráulio Figueiredo](http://braulioti.com.br).
